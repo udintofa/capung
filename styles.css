@@ -1,9 +1,12 @@
-.bg-utama {
+.bg-navbar {
     background-color: #2898bd;
+    background-color: black;
+    opacity: 40%;
+    opacity: 20%;
 }
 
-#about {
-    /* margin-top: 430px; */
+.bg-utama {
+    background-color: #2898bd;
 }
 
 .navbar img {
@@ -20,9 +23,6 @@
     height: 500px;
     object-fit: cover;
     z-index: 0;
-    /* position: fixed;
-    top: 0px; */
-    
 }
 
 .gambar {
@@ -34,3 +34,29 @@
     height: 500px; /* Sesuaikan tinggi sesuai kebutuhan */
     object-fit: cover;
 }
+
+.galeri {
+    width: 300px;
+    height: 300px;
+}
+
+#about {
+    background-color: #F7941D;
+}
+  
+.custom-caption {
+    position: absolute;
+    bottom: 10px; /* Letakkan teks di bawah gambar */
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.0); /* Latar belakang gelap transparan */
+    color: white; /* Warna teks putih */
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: 80%; /* Lebar teks agar lebih rapi */
+    text-align: center;
+    z-index: 10; /* Pastikan teks di atas gambar */
+    opacity: 1 !important; /* Paksa teks selalu terlihat */
+    transition: opacity 0.3s ease-in-out; /* Animasi halus */
+}
+  
