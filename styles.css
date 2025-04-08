@@ -1,8 +1,7 @@
 .bg-navbar {
     background-color: #2898bd;
-    background-color: black;
-    opacity: 40%;
-    opacity: 20%;
+    /* background-color: black; */
+    opacity: 100%;
 }
 
 .bg-utama {
@@ -60,3 +59,41 @@
     transition: opacity 0.3s ease-in-out; /* Animasi halus */
 }
   
+
+.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .scroll-item {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    width: 100px;
+  }
+  
+  .img-frame {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border: 3px solid #2898bd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .img-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+
+body{
+    padding-top: 88.5px;
+}
