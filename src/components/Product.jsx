@@ -4,7 +4,7 @@ import Produk from "./Produk";
 
 export default function Product() {
   return (
-    <div className="container-fluid bg-primary text-white p-3 rounded-5">
+    <div className="container-fluid bg-primary text-white p-3 rounded-top-5">
       <div className="text-white">
         <Braket text='Mengapa Memilih Kami?'/>
       </div>

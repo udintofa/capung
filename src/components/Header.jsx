@@ -1,8 +1,8 @@
 export default function Header () {
     return (
         <div
-        className="row rounded-5 shadow-lg"
-        style={{ width: "90%", margin: "10px auto", maxHeight: "480px",  backgroundColor: 'rgba(13, 110, 253, 0.5)'}}>
+        className="row rounded-5 shadow-lg d-flex align-items-center"
+        style={{ width: "90%", margin: "10px auto", minHeight: "440px" ,maxHeight: "440px",  backgroundColor: 'rgba(13, 110, 253, 0.5)'}}>
             <div className="col-md-4 d-flex text-center align-items-center pt-4">
                 <h1
                     className=""
@@ -11,7 +11,7 @@ export default function Header () {
                 </h1>
             </div>
             <div className="col-md-8 d-flex justify-content-center">
-                <div style={{height: "350px"}} >
+                <div style={{height: "370px"}} >
                     <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel" >
                         <div className="carousel-inner">
                             <div className="carousel-item active" data-bs-interval="3000">
