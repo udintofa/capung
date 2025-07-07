@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Product from './components/Product'
 import Braket from './components/Braket'
 import Footer from './components/Footer'
+import Header2 from './components/Header2'
 
 function App() {
 
@@ -13,12 +14,12 @@ function App() {
       <Navbar/>
 
       {/* Header */}
-      <div className='container-fluid' style={{position: 'fixed', top: "90px"}}>
-        <Header/>
+      <div className='container-fluid' style={{position: 'fixed', top: "72px"}}>
+        <Header2/>
       </div>
 
       {/* Product */}
-      <div style={{position: 'relative', top: '580px'}}>
+      <div style={{position: 'relative', top: '520px'}}>
         <Product/>
         <Footer/>
       </div>

@@ -9,7 +9,7 @@ export default function Braket({ text = "Selamat Datang" }) {
     }}>
         {/* <hr style={{ flex: 1, border: 'none', borderTop: '1px solid #FFFFFF' }} /> */}
         <span style={{ padding: '0 10px'}}>
-            <h2>{text}</h2>
+            <h5>{text}</h5>
         </span>
       {/* <hr style={{ flex: 1, border: 'none', borderTop: '1px solid #FFFFFF' }} /> */}
     </div>

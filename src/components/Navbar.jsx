@@ -1,6 +1,6 @@
 export default function Navbar () {
     return(
-        <nav className="navbar navbar-expand-sm bg-primary navbar-dark fixed-top py-3">
+        <nav className="navbar navbar-expand-sm bg-primary navbar-dark fixed-top py-3" style={{minHeight: '85px'}}>
             <div className="container">
                 <a href="/" className="navbar-brand ms-3">
                     <img
@@ -20,7 +20,7 @@ export default function Navbar () {
                     <span className="navbar-toggler-icon" />
                 </button>
                 <div className="collapse navbar-collapse" id="navmenu">
-                    <ul className="navbar-nav ms-auto">
+                    <ul className="navbar-nav ms-auto d-flex align-items-center">
                         <li className="nav-item">
                             <a href="#about" className="nav-link">
                                 About
@@ -38,7 +38,16 @@ export default function Navbar () {
                         </li>
                         <li className="nav-item">
                             <a href="#contact" className="nav-link">
-                                Contact
+                                <div className="rounded-5 d-flex align-items-center"
+                                    style={{
+                                        height: '50px',
+                                        padding: '0px 15px',
+                                        backgroundColor: 'red',
+                                        color: 'black'
+                                    }}
+                                    >
+                                        Kontak Kami
+                                </div>
                             </a>
                         </li>
                     </ul>
